@@ -83,9 +83,15 @@ type Voltage struct {
 	ReportedTelemetryVoltage float32 `cbor:"reported_telemetry_voltage" json:"reported_telemetry_voltage"`
 }
 
+type StickCalibrationLimit struct {
+	Min float32 `cbor:"min" json:"min"`
+	Max float32 `cbor:"max" json:"max"`
+}
+
 type Receiver struct {
-	Aux       []uint `cbor:"aux" json:"aux"`
-	LqiSource uint   `cbor:"lqi_source" json:"lqi_source"`
+	Aux                    []uint                  `cbor:"aux" json:"aux"`
+	LqiSource              uint                    `cbor:"lqi_source" json:"lqi_source"`
+	StickCalibrationLimits []StickCalibrationLimit `cbor:"stick_calibration_limits" json:"stick_calibration_limits"`
 }
 
 type OSD struct {
@@ -209,6 +215,8 @@ type State struct {
 	Rx         Vec4 `cbor:"rx" json:"rx"`
 	RxFiltered Vec4 `cbor:"rx_filtered" json:"rx_filtered"`
 	RxOverride Vec4 `cbor:"rx_override" json:"rx_override"`
+
+	StickCalibrationWizard uint `cbor:"stick_calibration_wizard" json:"stick_calibration_wizard"`
 
 	RXRssi   float32 `cbor:"rx_rssi" json:"rx_rssi"`
 	RXStatus uint    `cbor:"rx_status" json:"rx_status"`

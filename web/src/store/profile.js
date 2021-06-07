@@ -32,6 +32,7 @@ const store = {
     receiver: {
       lqi_source: -1,
       aux: [],
+      stick_calibration_limits: []
     },
     pid: {
       pid_profile: 0,
