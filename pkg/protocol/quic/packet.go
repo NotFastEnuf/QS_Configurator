@@ -14,6 +14,7 @@ const (
 	QuicCmdCalImu
 	QuicCmdBlackbox
 	QuicCmdMotor
+	QuicCmdCalSicks
 	QuicCmdSerial
 	QuicCmdMax
 )

@@ -137,6 +137,9 @@ const store = new Vuex.Store({
     cal_imu() {
       return post("/api/cal_imu", null)
     },
+    cal_sticks() {
+      return post("/api/cal_sticks", null)
+    },
     set_osd_font(ctx, name) {
       return post("/api/osd/font", name)
     }

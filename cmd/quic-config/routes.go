@@ -369,6 +369,15 @@ func (s *Server) postCalImu(w http.ResponseWriter, r *http.Request) {
 	renderJSON(w, "OK")
 }
 
+func (s *Server) postCalSticks(w http.ResponseWriter, r *http.Request) {
+	_, err := s.qp.Send(quic.QuicCmdCalSicks, quic.Opts().WithReader(new(bytes.Buffer)))
+	if err != nil {
+		handleError(w, err)
+		return
+	}
+	renderJSON(w, "OK")
+}
+
 func (s *Server) getPidRatePresets(w http.ResponseWriter, r *http.Request) {
 	value := make([]quic.PidRatePreset, 0)
 	if err := s.qp.GetValue(quic.QuicValPidRatePresets, &value); err != nil {
@@ -760,6 +769,7 @@ func (s *Server) setupRoutes(r *mux.Router) {
 		f.HandleFunc("/api/osd/font", s.postOSDFont).Methods("POST")
 
 		f.HandleFunc("/api/cal_imu", s.postCalImu).Methods("POST")
+		f.HandleFunc("/api/cal_sticks", s.postCalSticks).Methods("POST")
 	}
 
 	r.HandleFunc("/api/ws", s.websocketHandler)
