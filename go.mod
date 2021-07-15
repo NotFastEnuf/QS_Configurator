@@ -3,6 +3,8 @@ module github.com/BossHobby/configurator
 go 1.12
 
 require (
+	github.com/JackMordaunt/icns v1.0.0 // indirect
+	github.com/akavel/rsrc v0.10.2 // indirect
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/fxamacker/cbor/v2 v2.2.0
 	github.com/google/go-github/v31 v31.0.0
@@ -10,7 +12,10 @@ require (
 	github.com/gorilla/mux v1.8.0
 	github.com/gorilla/websocket v1.4.2
 	github.com/inconshreveable/go-update v0.0.0-20160112193335-8152e7eb6ccf
+	github.com/machinebox/appify v0.0.0-20180512101119-15c1e09ce924 // indirect
 	github.com/marcinbor85/gohex v0.0.0-20200531163658-baab2527a9a2
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
 	github.com/rakyll/statik v0.1.7
 	github.com/rs/cors v1.7.0
 	github.com/sirupsen/logrus v1.7.0
