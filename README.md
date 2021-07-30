@@ -1,5 +1,5 @@
-# QUICKSILVER USB Configurator [![Build Status](https://ci.bkleiner.codes/api/badges/bkleiner/quicksilver-usb-configurator/status.svg)](https://ci.bkleiner.codes/bkleiner/quicksilver-usb-configurator)
-USB configurator for the QUICKSILVER Flight Controller Firmware based on Silverware by Silver13
+[![Build Status](http://qp06aslhuoa3tcqahwlpfn.us-west.webrelay.io/api/badges/NotFastEnuf/QS_Configurator/status.svg)](http://qp06aslhuoa3tcqahwlpfn.us-west.webrelay.io/NotFastEnuf/QS_Configurator)
+USB configurator written by BKleiner for the QUICKSILVER Flight Controller Firmware based on Silverware by Silver13
 
 To Build Dirty:
 CREATE IMAGES IN DOCKER - from PowerShell  
