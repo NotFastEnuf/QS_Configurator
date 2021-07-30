@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/BossHobby/configurator/pkg/dfu"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/dfu"
 )
 
 func TestDfuLoader(t *testing.T) {

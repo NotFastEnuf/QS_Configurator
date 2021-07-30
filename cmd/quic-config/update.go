@@ -20,8 +20,8 @@ import (
 )
 
 const (
-	repoOwner = "BossHobby"
-	repoName  = "Configurator"
+	repoOwner = "NotFastENuf"
+	repoName  = "QS_Configurator"
 )
 
 type Updater struct {

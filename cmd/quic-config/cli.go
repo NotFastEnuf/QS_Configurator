@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/BossHobby/configurator/pkg/controller"
-	"github.com/BossHobby/configurator/pkg/protocol/quic"
-	"github.com/BossHobby/configurator/pkg/util"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/controller"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/quic"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/util"
 	"github.com/fxamacker/cbor/v2"
 	log "github.com/sirupsen/logrus"
 )

@@ -17,13 +17,13 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/BossHobby/configurator/pkg/blackbox"
-	"github.com/BossHobby/configurator/pkg/controller"
-	"github.com/BossHobby/configurator/pkg/dfu"
-	"github.com/BossHobby/configurator/pkg/firmware"
-	"github.com/BossHobby/configurator/pkg/protocol/blheli"
-	"github.com/BossHobby/configurator/pkg/protocol/quic"
-	"github.com/BossHobby/configurator/pkg/util"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/blackbox"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/controller"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/dfu"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/firmware"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/blheli"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/quic"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/util"
 	"github.com/fxamacker/cbor/v2"
 	"github.com/gorilla/mux"
 )

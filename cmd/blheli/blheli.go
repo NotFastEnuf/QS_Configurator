@@ -8,9 +8,9 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/BossHobby/configurator/pkg/controller"
-	"github.com/BossHobby/configurator/pkg/protocol/blheli"
-	"github.com/BossHobby/configurator/pkg/protocol/quic"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/controller"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/blheli"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/quic"
 )
 
 func init() {

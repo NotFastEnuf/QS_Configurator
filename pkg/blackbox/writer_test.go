@@ -4,8 +4,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/BossHobby/configurator/pkg/blackbox"
-	"github.com/BossHobby/configurator/pkg/protocol/quic"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/blackbox"
+	"github.com/NotFastEnuf/QS_Configurator/pkg/protocol/quic"
 )
 
 func TestStructTags(t *testing.T) {

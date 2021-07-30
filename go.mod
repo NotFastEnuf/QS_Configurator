@@ -1,4 +1,4 @@
-module github.com/BossHobby/configurator
+module github.com/NotFastEnuf/QS_Configurator
 
 go 1.12
 
