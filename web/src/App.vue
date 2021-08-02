@@ -5,7 +5,7 @@
         <img
           src="./assets/logo.png"
           class="d-inline-block"
-          alt="Guano"
+          alt="NFE_QUICKSILVER"
           height="40px"
         />
         QUICKSILVER

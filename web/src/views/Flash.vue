@@ -85,10 +85,10 @@ export default {
     return {
       loading: false,
       sourceOptions: [
-        { value: "guano", text: "Guano" },
+        { value: "NFE_QUICKSILVER", text: "NFE_QUICKSILVER" },
         { value: "local", text: "Local" }
       ],
-      source: "guano",
+      source: "NFE_QUICKSILVER",
       release: "latest",
       target: null,
       file: null,
