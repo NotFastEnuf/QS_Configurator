@@ -8,7 +8,7 @@
           alt="NFE_QUICKSILVER"
           height="40px"
         />
-        QUICKSILVER
+        NFE_QUICKSILVER
       </b-navbar-brand>
       <b-navbar-nav v-if="status.IsConnected">
         <b-nav-item to="/profile">Profile</b-nav-item>
